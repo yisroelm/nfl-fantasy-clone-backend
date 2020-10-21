@@ -1,3 +1,4 @@
 # ignore notes.md
 notes.md
 config/config.json
+.vscode/settings.json
