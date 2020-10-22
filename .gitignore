@@ -1,4 +1,4 @@
 # ignore notes.md
 notes.md
 config/config.json
-.vscode/
+node_modules/
