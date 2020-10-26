@@ -10,5 +10,6 @@ app.use("/api/user", userRoute);
 app.use("/api/team", teamRoute);
 app.use("/api/player", playerRoute);
 app.use("/api/game", gameRoute);
+
 app.use("/", (req, res) => res.send("<h1>Heyyy</h1>"));
 app.listen(3000, () => console.log("server running.... good"));
