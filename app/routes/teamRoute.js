@@ -1,11 +1,11 @@
-const express = require("express");
-const teamController = require("../controllers/teamController");
+import { Router } from "express";
+import { newTeam, get_team, edit, delete_team } from "../controllers/teamController.js";
 
-const router = express.Router();
+const router = Router();
 
-router.post("/new", teamController.new);
-router.get("/:id", teamController.get_team);
-router.put("/:id", teamController.edit);
-router.delete("/:id", teamController.delete_team);
+router.post("/new", newTeam);
+router.get("/:id", get_team);
+router.put("/:id", edit);
+router.delete("/:id", delete_team);
 
-module.exports = router;
+export default router;

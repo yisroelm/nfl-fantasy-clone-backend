@@ -1,9 +1,9 @@
-exports.signUp = () => {
+export function signUp() {
   console.log("signUp");
-};
-exports.signIn = () => {
+}
+export function signIn() {
   console.log("signIn");
-};
-exports.signOut = () => {
+}
+export function signOut() {
   console.log("signOut");
-};
+}

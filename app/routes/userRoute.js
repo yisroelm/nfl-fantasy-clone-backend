@@ -1,12 +1,12 @@
-const express = require("express");
-const userController = require("../controllers/userController");
-const authController = require("../controllers/authController");
+import { Router } from "express";
+import { player } from "../controllers/userController.js";
+import { signUp, signIn, signOut } from "../controllers/authController.js";
 
-const router = express.Router();
+const router = Router();
 
-router.get("/player", userController.player);
-router.get("/signup", authController.signUp);
-router.get("/signin", authController.signIn);
-router.get("/signout", authController.signOut);
+router.get("/player", player);
+router.get("/signup", signUp);
+router.get("/signin", signIn);
+router.get("/signout", signOut);
 
-module.exports = router;
+export default router;

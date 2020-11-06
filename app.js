@@ -1,9 +1,10 @@
-const express = require("express");
-const userRoute = require("./app/routes/userRoute");
-const teamRoute = require("./app/routes/teamRoute");
-const playerRoute = require("./app/routes/playerRoute");
-const gameRoute = require("./app/routes/gameRoute");
-const sqlite3 = require('sqlite3').verbose();
+import express from "express";
+import userRoute from "./app/routes/userRoute.js";
+import teamRoute from "./app/routes/teamRoute.js";
+import playerRoute from "./app/routes/playerRoute.js";
+import gameRoute from "./app/routes/gameRoute.js";
+import sqlite33 from "sqlite3"
+const sqlite3 = sqlite33.verbose();
 
 const app = express();
 

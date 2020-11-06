@@ -1,12 +1,16 @@
-exports.new = () => {
-  console.log("new");
+import Game from "../models/game.js";
+
+export function newGame() {
+const newGame = Game.create({score: 3})
+console.log(newGame)
 };
-exports.get_game = () => {
+export function get_game() {
   console.log("get_game");
 };
-exports.edit = () => {
+export function edit () {
   console.log("edit");
 };
-exports.delete_game = () => {
+export function delete_game () {
   console.log("delete_game");
 };
+
