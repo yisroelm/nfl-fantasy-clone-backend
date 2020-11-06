@@ -1,12 +1,12 @@
-exports.new = () => {
+export function newTeam() {
   console.log("new");
-};
-exports.get_team = () => {
+}
+export function get_team() {
   console.log("get_team");
-};
-exports.edit = () => {
+}
+export function edit() {
   console.log("edit");
-};
-exports.delete_team = () => {
+}
+export function delete_team() {
   console.log("delete_team");
-};
+}

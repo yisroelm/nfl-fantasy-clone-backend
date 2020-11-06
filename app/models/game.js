@@ -1,5 +1,5 @@
 'use strict';
-module.exports = (sequelize, DataTypes) => {
+export default (sequelize, DataTypes) => {
   const game = sequelize.define('game', {
     total_points: DataTypes.INTEGER
   }, {});

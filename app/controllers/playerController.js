@@ -1,12 +1,12 @@
-exports.new = () => {
-  console.log("new");
-};
-exports.get_player = () => {
+export function newPlayer() {
+  console.log("newGame");
+}
+export function get_player() {
   console.log("get_player");
-};
-exports.edit = () => {
+}
+export function edit() {
   console.log("edit");
-};
-exports.delete_player = () => {
+}
+export function delete_player() {
   console.log("delete_player");
-};
+}

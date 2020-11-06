@@ -1,1 +1,1 @@
-exports.player = () => console.log("this is player");
+export function player() { return console.log("this is player"); }
