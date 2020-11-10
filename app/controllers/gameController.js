@@ -4,8 +4,8 @@ import Game from "../models/game.js";
 // const {Game} = model;
 
 export function newGame() {
+console.log(Game)
 const newGame = Game.create({total_points: 3})
-  // console.log(Game)
 console.log(newGame)
 };
 export function get_game() {
