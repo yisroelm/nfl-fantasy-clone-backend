@@ -20,6 +20,7 @@
   "homepage": "https://github.com/yisroel96/nfl-fantasy-clone-backend#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "faker": "^5.5.3",
     "mysql2": "^2.2.5",
     "nodemon": "^2.0.6",
     "sequelize": "^6.3.5",
